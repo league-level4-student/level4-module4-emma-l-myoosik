@@ -33,8 +33,8 @@ public class CircleMorph extends Polymorph {
     
     @Override
     public void update() {
-    	setX(getX() + (int) (Math.cos(Math.PI/180 * angle) * 10));
-    	setY(getY() + (int) (Math.sin(Math.PI/180 * angle) * 10));
+    	setX(getX() + (int) (Math.cos(Math.PI/180 * angle) * 5));
+    	setY(getY() + (int) (Math.sin(Math.PI/180 * angle) * 5));
     	
     	angle++;
     }

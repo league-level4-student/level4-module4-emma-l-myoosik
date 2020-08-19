@@ -6,7 +6,7 @@ public class DoctorFullException extends Exception{
 	 */
 	private static final long serialVersionUID = 1L;
 
-	public static boolean full() {
-		return true;
+	public static void full() {
+		System.exit(0);
 	}
 }

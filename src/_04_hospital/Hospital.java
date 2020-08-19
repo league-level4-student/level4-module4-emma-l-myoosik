@@ -28,7 +28,7 @@ public class Hospital {
 			doctors.get(doctor).assignPatient(patients.get(i));
 			
 			if (doctor == doctors.size() - 1) doctor = 0;
-			doctor++;
+			else doctor++;
 		}
 	}
 	
